@@ -294,3 +294,22 @@ code {
     border-right-color: var(--border);
   }
 }
+
+#banner {
+  background-image: linear-gradient(to left, rgb(255, 255, 255), 70%, rgba(126, 209, 247, 0.5)),
+  url("https://i.imgur.com/frHbYvL.png");
+  background-size: cover;
+  background-position: center;
+  height: : 550px;
+}
+
+#banner-title{
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: 54px;
+}
+
+#motto {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.7rem;
+}
