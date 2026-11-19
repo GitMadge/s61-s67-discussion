@@ -5,19 +5,22 @@
   // Add export default {} to be able to add imported component in the root component
     import BannerComponent from './components/BannerComponent.vue';
     import NavbarComponent from './components/NavbarComponent.vue';
+    import CoursesPage from './pages/CoursesPage.vue';
 
     export default {
       components: {
         BannerComponent,
-        NavbarComponent
+        NavbarComponent,
+        CoursesPage
       }
     }
 </script>
 
 <template>
   <NavbarComponent />
+  <CoursesPage />
   <BannerComponent />
-  
+
 </template>
 
 <style scoped>
