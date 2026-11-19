@@ -1,15 +1,16 @@
 <script>
-  
+  //To be able to add a component into another component, in the script block, import the component
+  //The name of the component is the name of the file by default.
+  // Add export default {} to be able to add imported component in the root component
   import NavbarComponent from './components/NavbarComponent.vue';
   import HomePage from './pages/HomePage.vue';
-  import HighlightsComponent from './components/HighlightsComponent.vue';
-  import CourseComponent from './components/CourseComponent.vue';
-  import CourseComponent2 from './components/CourseComponent2.vue';
-  import CourseComponent3 from './components/CourseComponent3.vue';
+  import CoursesPage from './pages/CoursesPage.vue';
 
   export default {
     components: {
-      NavbarComponent, HomePage, HighlightsComponent, CourseComponent, CourseComponent2, CourseComponent3
+      NavbarComponent,
+      HomePage,
+      CoursesPage
     }
   }
 </script>
@@ -17,6 +18,7 @@
 <template>
   <NavbarComponent />
   <HomePage />
+  <CoursesPage />
 </template>
 
 <style scoped>
