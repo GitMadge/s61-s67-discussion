@@ -1,6 +1,5 @@
-
 <template>
-	<div class="card h-100" id="CourseCard">
+	<div class="card h-100" id="CourseCard2">
 		<div class="card-body">
 			<h5 class="card-title">JavaScript Programming</h5>
 			<p class="card-text">

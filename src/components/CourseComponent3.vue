@@ -1,6 +1,6 @@
 
 <template>
-	<div class="card h-100" id="CourseCard">
+	<div class="card h-100" id="CourseCard3">
 		<div class="card-body">
 			<h5 class="card-title">Bootstrap 5</h5>
 			<p class="card-text">
